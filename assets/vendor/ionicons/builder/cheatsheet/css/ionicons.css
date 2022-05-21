@@ -1,0 +1,803 @@
+﻿
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="ar">
+<head>
+
+<script type="7c9d84e622e14d3d94874ef0-text/javascript">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-T4FQTGT');</script>
+
+
+<!--[if lt IE 9]>
+<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!--[if IE]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<link rel="stylesheet" type="text/css" href="/assets/css/store.css?ver=1.0" />
+<link rel="stylesheet" type="text/css" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.1/themes/base/jquery-ui.css" />
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans|Podkova|Rosario|Abel|PT+Sans|Source+Sans+Pro:400,600,300|Roboto|Montserrat:400,700|Lato:400,300,100italic,100,300italic,400italic,700,700italic,900,900italic|Raleway:300,400,600,800" />
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" />
+<link rel="stylesheet" type="text/css" href="/assets/vendor/font-awesome/css/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Cairo" />
+<link rel="stylesheet" type="text/css" href="/assets/vendor/colorpick/css/colpick.css" />
+<link rel="stylesheet" type="text/css" href="/assets/vendor/iCheck/skins/all.css" />
+<link rel="stylesheet" type="text/css" href="/assets/vendor/chosen/chosen.css" />
+<link rel="stylesheet" type="text/css" href="/assets/vendor/fancybox/source/jquery.fancybox.css?ver=1" />
+<link rel="stylesheet" type="text/css" href="/assets/vendor/animate.min.css" />
+<link rel="stylesheet" type="text/css" href="/assets/vendor/magnific-popup/magnific-popup.css" />
+<link rel="stylesheet" type="text/css" href="/assets/vendor/intel/build/css/intlTelInput.css" />
+<link rel="stylesheet" type="text/css" href="/assets/vendor/rupee/rupyaINR.css" />
+<link rel="stylesheet" type="text/css" href="/assets/vendor/bootstrap/css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="/assets/vendor/raty/jquery.raty.css" />
+<link rel="stylesheet" type="text/css" href="/assets/vendor/ionicons-2.0.1/css/ionicons.min.css" />
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.9.4/css/bootstrap-select.min.css" />
+<link rel="stylesheet" type="text/css" href="/assets/vendor/nprogress/nprogress.css" />
+<link rel="stylesheet" type="text/css" href="/assets/vendor/justified-gallery/css/justifiedGallery.min.css" />
+<link rel="stylesheet" type="text/css" href="/assets/vendor/EasyAutocomplete/easy-autocomplete.min.css" />
+<link rel="stylesheet" type="text/css" href="/assets/vendor/timepicker.co/jquery.timepicker.min.css" />
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.2/css/bootstrap-select.min.css" />
+<link rel="stylesheet" type="text/css" href="/assets/css/store-v2.css?ver=1.0" />
+<link rel="stylesheet" type="text/css" href="/assets/css/responsive.css?ver=1.0" />
+<script type="7c9d84e622e14d3d94874ef0-text/javascript">
+/*<![CDATA[*/
+var lang = 'ar';
+var age_restriction='';
+var restriction_exit_link='http://google.com';
+var js_lang = {"deleteWarning":"\u0623\u0646\u062a \u0639\u0644\u0649 \u0648\u0634\u0643 \u062d\u0630\u0641 \u0627\u0644\u0639\u0646\u0627\u0635\u0631 \u0627\u0644\u0645\u062d\u062f\u062f\u0629 \u0646\u0647\u0627\u0626\u064a\u0627\u064b.\/n '\u0644\u0627' \u0644\u0625\u0644\u063a\u0627\u0621 \u0627\u0644\u0639\u0645\u0644\u064a\u0629,'\u0646\u0639\u0645' \u0644\u062a\u0623\u0643\u064a\u062f \u0627\u0644\u062d\u0630\u0641","checkRowDelete":"\u0627\u0644\u0631\u062c\u0627\u0621 \u0627\u0644\u062a\u062d\u0642\u0642 \u0645\u0646 \u0627\u0644\u0635\u0641 \u0642\u0628\u0644 \u0627\u0644\u062d\u0630\u0641","removeFeatureImage":"\u062d\u0630\u0641 \u0627\u0644\u0635\u0648\u0631\u0629","removeFiles":"\u0627\u0632\u0627\u0644\u0629 \u0627\u0644\u0645\u0644\u0641\u0627\u062a","lastTotalSales":"\u0625\u062c\u0645\u0627\u0644\u064a \u0627\u0644\u0645\u0628\u064a\u0639\u0627\u062a \u0641\u064a \u0622\u062e\u0631 30 \u064a\u0648\u0645","lastItemSales":"\u0625\u062c\u0645\u0627\u0644\u064a \u0627\u0644\u0645\u0628\u064a\u0639\u0627\u062a \u0641\u064a \u0622\u062e\u0631 30 \u064a\u0648\u0645 \u062d\u0633\u0628 \u0627\u0644\u0635\u0646\u0641","NewOrderStatsMsg":"\u062a\u0645 \u0625\u062f\u0631\u0627\u062c \u0637\u0644\u0628 \u062c\u062f\u064a\u062f","Hour":"\u0633\u0627\u0639\u0629","Minute":"\u062f\u0642\u064a\u0642\u0629","processing":"\u062c\u0627\u0631\u064a \u0627\u0644\u062a\u0646\u0641\u064a\u0630","merchantStats":"\u0644\u0642\u062f \u0627\u0646\u062a\u0647\u062a \u0635\u0644\u0627\u062d\u064a\u0629 \u0639\u0636\u0648\u064a\u0629 \u0627\u0644\u062a\u0627\u062c\u0631. \u064a\u0631\u062c\u0649 \u062a\u062c\u062f\u064a\u062f \u0627\u0644\u0639\u0636\u0648\u064a\u0629<a href=\"\/merchant\/MerchantStatus\/\">\u0627\u0636\u063a\u0637 \u0647\u0646\u0627 \u0644\u062a\u062c\u062f\u064a\u062f \u0639\u0636\u0648\u064a\u062a\u0643<\/a>","Status":"\u0627\u0644\u062d\u0627\u0644\u0629","tablet_1":"\u0644\u0627 \u064a\u0648\u062c\u062f \u062a\u0627\u0631\u064a\u062e \u0645\u062a\u0627\u062d \u0641\u064a \u0627\u0644\u062c\u062f\u0648\u0644","tablet_2":"\u0625\u0638\u0647\u0627\u0631 _START_ \u0625\u0644\u0649 _END_ \u0645\u0646 _TOTAL_ \u0627\u0644\u0645\u062f\u062e\u0644\u0627\u062a","tablet_3":"\u0625\u0638\u0647\u0627\u0631 0 \u0625\u0644\u0649 0 \u0645\u0646 0 \u0645\u062f\u062e\u0644\u0627\u062a","tablet_4":"(\u062a\u0635\u0646\u064a\u0641 \u0645\u0646 _\u0627\u0644\u0623\u0642\u0635\u0649_ \u0625\u062c\u0645\u0627\u0644\u064a \u0627\u0644\u0645\u062f\u062e\u0644\u0627\u062a)","tablet_5":"\u0623\u0638\u0647\u0631 _MENU_ \u0627\u0644\u0645\u062f\u062e\u0644\u0627\u062a","tablet_6":"...\u062a\u062d\u0645\u064a\u0644","tablet_7":"...\u062c\u0627\u0631\u064a \u0627\u0644\u062a\u0646\u0641\u064a\u0630","tablet_8":":\u0628\u062d\u062b","tablet_9":"\u0644\u0645 \u064a\u062a\u0645 \u0627\u0644\u0639\u062b\u0648\u0631 \u0639\u0644\u0649 \u0633\u062c\u0644\u0627\u062a \u0645\u0637\u0627\u0628\u0642\u0629","tablet_10":"\u0627\u0644\u0623\u0648\u0644\u0649","tablet_11":"\u0627\u0644\u0623\u062e\u064a\u0631\u0629","tablet_12":"\u0627\u0644\u062a\u0627\u0644\u064a","tablet_13":"\u0627\u0644\u0633\u0627\u0628\u0642","tablet_14":"\u062a\u0641\u0639\u064a\u0644 \u062a\u0631\u062a\u064a\u0628 \u0627\u0644\u0628\u064a\u0627\u0646\u0627\u062a \u0641\u064a \u0627\u0644\u0639\u0645\u0648\u062f \u062a\u0635\u0627\u0639\u062f\u064a\u0627\u064b","tablet_15":"\u062a\u0641\u0639\u064a\u0644 \u062a\u0631\u062a\u064a\u0628 \u0627\u0644\u0628\u064a\u0627\u0646\u0627\u062a \u0641\u064a \u0627\u0644\u0639\u0645\u0648\u062f \u062a\u0646\u0627\u0632\u0644\u064a\u0627\u064b","trans_1":"\u0627\u0644\u0631\u062c\u0627\u0621 \u062a\u0642\u064a\u064a\u0645 \u0627\u0644\u0645\u0637\u0639\u0645 \u0642\u0628\u0644 \u0625\u0631\u0633\u0627\u0644 \u0627\u0644\u062a\u0639\u0644\u064a\u0642 ","trans_2":"\u0639\u0630\u0631\u0627\u064b \u0648\u0644\u0643\u0646 \u064a\u0645\u0643\u0646\u0643 \u0627\u0644\u0627\u062e\u062a\u064a\u0627\u0631 \u0641\u0642\u0637","trans_3":"\u0625\u0636\u0627\u0641\u0629 \u0639\u0644\u0649","trans_4":"\u0647\u0644 \u0623\u0646\u062a \u0645\u062a\u0623\u0643\u062f","trans_5":"\u0646\u0623\u0633\u0641 \u0627\u0644\u062d\u062f \u0627\u0644\u0623\u062f\u0646\u0649 \u0645\u0646 \u0627\u0644\u0637\u0644\u0628 \u0647\u0648","trans_6":"\u0627\u0644\u0631\u062c\u0627\u0621 \u0627\u062e\u062a\u064a\u0627\u0631 \u0637\u0631\u064a\u0642\u0629 \u0627\u0644\u062f\u0641\u0639","trans_7":"\u0631\u0642\u0645 \u0627\u0644\u0647\u0627\u062a\u0641 \u0627\u0644\u0645\u062d\u0645\u0648\u0644 \u0645\u0637\u0644\u0648\u0628","trans_8":"\u0627\u062e\u062a\u0631 \u0628\u0637\u0627\u0642\u062a\u0643 \u0627\u0644\u0627\u0626\u062a\u0645\u0627\u0646\u064a\u0629","trans_9":"\u0627\u0644\u062e\u0631\u064a\u0637\u0629 \u063a\u064a\u0631 \u0645\u062a\u0627\u062d\u0629","trans_10":"\u0647\u0644 \u0623\u0646\u062a \u0645\u062a\u0623\u0643\u062f \u0645\u0646 \u062d\u0630\u0641 \u0647\u0630\u0627 \u0627\u0644\u062a\u0639\u0644\u064a\u0642\u061f \u0644\u0627 \u064a\u0645\u0643\u0646 \u0627\u0644\u062a\u0631\u0627\u062c\u0639 \u0639\u0646 \u0647\u0630\u0627 \u0627\u0644\u0623\u0645\u0631 ","trans_11":"\u0623\u0636\u0641 \u0637\u0644\u0628\u0643 \u0627\u0644\u0623\u062e\u064a\u0631 \u0625\u0644\u0649 \u0642\u0627\u0626\u0645\u0629 \u0627\u0644\u0637\u0644\u0628\u0627\u062a","trans_12":"\u0627\u062d\u0635\u0644 \u0639\u0644\u0649 \u0627\u0644\u0645\u062c\u0645\u0648\u0639 \u0645\u0646 _\u0625\u062c\u0645\u0627\u0644\u064a_ \u0627\u0644\u062a\u0627\u062c\u0631 \u0644\u0625\u0638\u0647\u0627\u0631 (_\u0627\u0644\u0628\u062f\u0627\u064a\u0629_ \u0625\u0644\u0649 _\u0627\u0644\u0646\u0647\u0627\u064a\u0629_)","trans_13":"\u0627\u062d\u0635\u0644 \u0639\u0644\u0649 \u0627\u0644\u0645\u062c\u0645\u0648\u0639 \u0645\u0646 _TOTAL_ \u0627\u0644\u0633\u062c\u0644\u0627\u062a \u0644\u0625\u0638\u0647\u0627\u0631 (_START_ \u0625\u0644\u0649 _END_)","trans_14":"\u062e\u0637\u0623","trans_15":"\u0639\u0630\u0631\u0627\u064b \u0644\u0643\u0646 \u0647\u0630\u0627 \u0627\u0644\u062a\u0627\u062c\u0631 \u064a\u0633\u0644\u0645 \u0641\u0642\u0637 \u0641\u064a \u063a\u0636\u0648\u0646","trans_16":"\u0645\u064a\u0644","trans_17":"\u0645\u0644\u0627\u062d\u0638\u0629: \u0644\u0646 \u064a\u0638\u0647\u0631 \u062a\u0627\u062c\u0631\u0643 \u0641\u064a \u0646\u062a\u0627\u0626\u062c \u0627\u0644\u0628\u062d\u062b. \u0627\u0636\u063a\u0637 \u0639\u0644\u0649 \u0646\u0634\u0631 \u0627\u0644\u062a\u0627\u062c\u0631 \u0627\u0644\u062e\u0627\u0635 \u0628\u0643","trans_18":"\u0627\u0643\u0645\u0644\u061f","trans_19":"\u0627\u0646\u062a \u0639\u0644\u0649 \u0648\u0634\u0643 \u0627\u0631\u0633\u0627\u0644 \u0631\u0633\u0627\u0644\u0629 \u0627\u0644\u0649","trans_20":"\u0627\u0644\u0632\u0628\u0648\u0646","trans_21":"\u062a\u0635\u0641\u062d","trans_22":"Invalid Voucher code","trans_23":"\u0627\u0632\u0644 \u0627\u064a\u0635\u0627\u0644 \u0627\u0644\u062f\u0639\u0627\u064a\u0629","trans_24":"\u0627\u0633\u062a\u062e\u062f\u0645 \u0627\u064a\u0635\u0627\u0644 \u0627\u0644\u062f\u0639\u0627\u064a\u0629","trans_25":"\u0627\u0644\u0631\u062c\u0627\u0621 \u0627\u062f\u062e\u0627\u0644 \u0646\u0642\u0637\u0629 \u0627\u0644\u0628\u062f\u0627\u064a\u0629","trans_26":"\u062e\u0637\u0627: \u062d\u0635\u0644 \u062e\u0637\u0627 \u0645\u0627","trans_27":"No results found","trans_28":"Geocoder failed due to:","trans_29":"\u0627\u0644\u0631\u062c\u0627\u0621 \u0627\u062e\u062a\u064a\u0627\u0631 \u0627\u0644\u0633\u0639\u0631","trans_30":"\u0646\u0623\u0633\u0641\u060c \u062d\u0633\u0627\u0628 \u0627\u0644\u062a\u0627\u062c\u0631 \u0647\u0630\u0627 \u0645\u063a\u0644\u0642","Prev":"\u0627\u0644\u0633\u0627\u0628\u0642","Next":"\u0627\u0644\u062a\u0627\u0644\u064a","Today":"\u0627\u0644\u064a\u0648\u0645","January":"\u0643\u0627\u0646\u0648\u0646 \u0627\u0644\u062b\u0627\u0646\u064a","February":"\u0634\u0628\u0627\u0637","March":"\u0627\u0630\u0627\u0631","April":"\u0646\u064a\u0633\u0627\u0646","May":"\u0627\u064a\u0627\u0631","June":"\u062d\u0632\u064a\u0631\u0627\u0646","July":"\u062a\u0645\u0648\u0632","August":"\u0627\u0628","September":"\u0623\u064a\u0644\u0648\u0644","October":"\u062a\u0634\u0631\u064a\u0646 \u0623\u0648\u0644","November":"\u062a\u0634\u0631\u064a\u0646 \u062b\u0627\u0646\u064a","December":"\u0643\u0627\u0646\u0648\u0646 \u0623\u0648\u0644","Jan":"\u0643\u0627\u0646\u0648\u0646 \u0627\u0644\u062b\u0627\u0646\u064a","Feb":"\u0634\u0628\u0627\u0637","Mar":"\u0627\u0630\u0627\u0631","Apr":"\u0646\u064a\u0633\u0627\u0646","Jun":"\u062d\u0632\u064a\u0631\u0627\u0646","Jul":"\u062a\u0645\u0648\u0632","Aug":"\u0627\u0628","Sep":"\u0623\u064a\u0644\u0648\u0644","Oct":"\u062a\u0634\u0631\u064a\u0646 \u0623\u0648\u0644","Nov":"\u062a\u0634\u0631\u064a\u0646 \u062b\u0627\u0646\u064a","Dec":"\u0643\u0627\u0646\u0648\u0646 \u0623\u0648\u0644","Sun":"\u0627\u062d\u062f","Mon":"\u0627\u062b\u0646","Tue":"\u062b\u0644\u0627\u062b","Wed":"\u0627\u0631\u0628","Thu":"\u062e\u0645\u0633","Fri":"\u062c\u0645\u0639","Sat":"\u0633\u0628\u062a","Su":"\u062d","Mo":"\u0646","Tu":"\u062b","We":"\u0631","Th":"\u062e","Fr":"\u062c","Sa":"\u0633","AM":"\u0635\u0628\u0627\u062d\u0627","PM":"\u0645\u0633\u0627\u0621\u0627","trans_31":"Sorry but Maximum order is","trans_32":"\u0627\u062e\u062a\u0631 \u0628\u0639\u0636 \u0627\u0644\u062e\u064a\u0627\u0631\u0627\u062a","trans_33":"\u0644\u0627 \u064a\u0648\u062c\u062f \u0646\u062a\u0627\u0626\u062c \u0645\u0637\u0627\u0628\u0642\u0629 \u0644\u0628\u062d\u062b\u0643","trans_34":"\u062d\u062c\u0632 \u0637\u0627\u0648\u0644\u0629 \u062c\u062f\u064a\u062f","trans_35":"\u0627\u0633\u0645 \u0627\u0644\u0645\u0637\u0639\u0645","trans_36":"\u0627\u0644\u0639\u0646\u0648\u0627\u0646","trans_37":"\u0627\u0637\u0644\u0628 \u0627\u0644\u0627\u0646","trans_38":"\u0648\u0642\u062a \u0627\u0644\u0627\u0633\u062a\u0644\u0627\u0645","trans_39":"\u0648\u0642\u062a \u0627\u0644\u062a\u0633\u0644\u064a\u0645","trans_40":"\u0627\u0644\u0631\u062c\u0627\u0621 \u0627\u062e\u062a\u064a\u0627\u0631 \u0645\u0632\u0648\u062f \u0637\u0631\u064a\u0642\u0629 \u0627\u0644\u062f\u0641\u0639","trans_41":"\u0648\u0642\u062a \u0627\u0644\u0627\u0633\u062a\u0644\u0627\u0645 \u0645\u0637\u0644\u0648\u0628","trans_42":"\u062a\u0627\u0631\u064a\u062e \u0627\u0644\u0627\u0633\u062a\u0644\u0627\u0645 \u0645\u0637\u0644\u0648\u0628","trans_43":"\u062a\u0627\u0631\u064a\u062e \u0627\u0644\u062a\u0648\u0635\u064a\u0644 \u0645\u0637\u0644\u0648\u0628","trans_44":"\u0648\u0642\u062a \u0627\u0644\u062a\u0648\u0635\u064a\u0644 \u0645\u0637\u0644\u0648\u0628","trans_45":"\u0627\u0644\u0628\u0642\u0634\u064a\u0634","trans_46":"You must select price for left and right flavor","trans_47":"\u064a\u062c\u0628 \u0627\u0646 \u062a\u062e\u062a\u0627\u0631 \u0639\u0644\u0649 \u0627\u0644\u0627\u0642\u0644 \u0627\u0636\u0627\u0641\u0629 \u0648\u0627\u062d\u062f\u0647","trans_48":"\u0627\u0644\u0631\u062c\u0627\u0621 \u0627\u062f\u0627\u0631\u062c \u0627\u0644\u0645\u0624\u0634\u0631 \u0644\u062a\u062d\u062f\u064a\u062f \u0639\u0646\u0648\u0627\u0646\u0643","trans_49":"\u062a\u0633\u062a\u0637\u064a\u0639 \u0633\u062d\u0628 \u0645\u0624\u0634\u0631 \u0627\u0644\u062e\u0627\u0631\u0637\u0629","trans_50":"\u0647\u0644 \u0647\u0630\u0627 \u0627\u0644\u0639\u0646\u0648\u0627\u0646 \u0635\u062d\u064a\u062d","trans_51":"\u0646\u0623\u0633\u0641\u060c \u0648\u0644\u0643\u0646 \u0647\u0630\u0647 \u0627\u0644\u0645\u0627\u062f\u0629 \u063a\u064a\u0631 \u0645\u062a\u0648\u0641\u0631","trans_52":"\u0627\u0644\u0631\u062c\u0627\u0621 \u0627\u0644\u062a\u062d\u0642\u0642 ","trans_53":"\u0643\u0648\u062f \u0631\u0633\u0627\u0644\u0629 \u0627\u0644\u062a\u062d\u0642\u0642 \u0645\u0637\u0644\u0648\u0628","find_restaurant_by_name":"\u0627\u0644\u0628\u062d\u062b \u0639\u0646 \u0627\u0644\u0645\u0637\u0639\u0645 \u0628\u0627\u0644\u0627\u0633\u0645","find_restaurant_by_streetname":"\u0627\u0644\u0628\u062d\u062b \u0639\u0646 \u0627\u0644\u0634\u0627\u0631\u0639 \u0628\u0627\u0644\u0627\u0633\u0645","find_restaurant_by_cuisine":"\u0627\u0644\u0628\u062d\u062b \u0639\u0646 \u0627\u0644\u0645\u0637\u0639\u0645 \u0628\u0646\u0648\u0639 \u0627\u0644\u0645\u0637\u0628\u062e","find_restaurant_by_food":"\u0627\u0628\u062d\u062b \u0639\u0646 \u0627\u0644\u0645\u0637\u0639\u0645 \u0628\u0648\u0627\u0633\u0637\u0629 \u0627\u0644\u0637\u0639\u0627\u0645","read_more":"\u0627\u0642\u0631\u0623 \u0627\u0644\u0645\u0632\u064a\u062f","close":"\u0627\u063a\u0644\u0642","close_fullscreen":"\u0625\u063a\u0644\u0627\u0642 \u0627\u0644\u0634\u0627\u0634\u0629 \u0627\u0644\u0643\u0627\u0645\u0644\u0629","view_fullscreen":"\u0639\u0631\u0636 \u0639\u0644\u0649 \u0634\u0627\u0634\u0629 \u0643\u0627\u0645\u0644\u0629","not_authorize":"\u0627\u0646\u062a \u063a\u064a\u0631 \u0645\u0633\u0645\u0648\u062d \u0644\u0643 \u0627\u0633\u062a\u062e\u062f\u0627\u0645 \u0647\u0630\u0627 \u0627\u0644\u062a\u0637\u0628\u064a\u0642","not_login_fb":"\u0646\u0623\u0633\u0641\u060c \u0648\u0644\u0643\u0646 \u0644\u0645 \u062a\u0633\u062c\u0644 \u062f\u062e\u0648\u0644\u0643 \u0628\u0648\u0627\u0633\u0637\u0629 \u0641\u064a\u0633\u0628\u0648\u0643","login_succesful":"\u062a\u0645 \u0627\u0644\u062f\u062e\u0648\u0644 \u0628\u0646\u062c\u0627\u062d","you_cannot_edit_order":"\u0644\u0627 \u064a\u0645\u0643\u0646\u0643 \u062a\u0639\u062f\u064a\u0644 \u0647\u0630\u0627 \u0627\u0644\u0637\u0644\u0628 \u0644\u0627\u0645\u062a\u0644\u0627\u0643\u0643 \u0646\u0642\u0627\u0637 \u0644\u0644\u0627\u0633\u062a\u0628\u062f\u0627\u0644","dinein_time_is_required":"Dinein time is required","dinein_time":"Dine in time"}
+		  
+var jsLanguageValidator = {"requiredFields":"\u0644\u0645 \u062a\u062c\u0628 \u0639\u0644\u0649 \u0643\u0644 \u0627\u0644\u062d\u0642\u0648\u0644 \u0627\u0644\u0645\u0637\u0644\u0648\u0628\u0629","groupCheckedTooFewStart":"\u0627\u0644\u0631\u062c\u0627\u0621 \u0627\u062e\u062a\u064a\u0627\u0631 \u0639\u0644\u0649 \u0627\u0644\u0627\u0642\u0644","badEmail":"\u0644\u0645 \u062a\u0639\u0637\u064a \u0628\u0631\u064a\u062f \u0627\u0644\u0643\u062a\u0631\u0648\u0646\u064a \u064a\u0639\u0645\u0644"}
+		  
+var ajax_url ='/admin/ajax' 
+var front_ajax ='/ajax' 
+var admin_url ='/admin' 
+var sites_url ='' 
+var home_url ='/store' 
+var upload_url ='/upload' 
+var captcha_site_key ='' 
+var map_marker ='/assets/images/map_pointer_small.png' 
+/*]]>*/
+</script>
+<title>Your Favorite Restaurants, Delivered Fast | Download yummy app | Yummy - Store</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="apple-itunes-app" content="app-id=1448247070, app-argument=https://itunes.apple.com/app/yummy-ps/id1448247070">
+<meta name="google-play-app" content="app-id=app.yummy.ps">
+<link rel="stylesheet" href="/assets/smart-app-banner.css" type="text/css" media="screen">
+<link rel="android-touch-icon" href="/assets/icon-f.png" />
+
+<link rel="shortcut icon" href="/favicon.ico?ver=1.1" />
+<meta property="og:title" content="Your Favorite Restaurants, Delivered Fast | Download yummy app | Yummy - Store" />
+<meta property="og:description" content="يمي هو التطبيق و الموقع الالكتروني المفضل للاكيلة في فلسطين و كمان اسهل و أبسط و اوفر طريقة تطلب أكلك من بين أكتر من 200 مطعم" />
+<meta property="og:type" content="product" />
+<meta property="og:url" content="https://yummy.ps/" />
+<meta property="og:image" content="https://yummy.ps/assets/yummy1200.png" />
+<meta property="og:site_name" content="Yummy | يمي" />
+<meta property="fb:app_id" content="277733143083012" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="7c9d84e622e14d3d94874ef0-text/javascript"></script>
+<link rel="canoical" herf="https://yummy.ps" />
+</head>
+<body class="lang_ar">
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T4FQTGT"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+
+
+
+<div class="language-selection-wrap1" style="display:none">
+<a href="javascript:;" class="language-selection-close"><i class="ion-ios-close-empty"></i></a>
+<div class="container-medium">
+<div class="col-sm-6 border">
+</div> 
+<div class="col-sm-6 border">
+<div class="lang-list">
+<div class="row head bottom10">
+<div class="col-xs-8 border">اللغة</div>
+
+<div class="col-xs-4 border"></div>
+</div> 
+<div class="row body">
+<div class="col-xs-8 border">
+<ul>
+<li>
+<a href="/setlanguage?lang=ar"> </li>
+<li><img src="/assets/images/flags/ar.png">
+<span style="padding-left:5px;text-transform:none;">ar</span>
+</a>
+</li>
+<li>
+<a href="/setlanguage?lang=en"> </li>
+<li><img src="/assets/images/flags/us.png">
+<span style="padding-left:5px;text-transform:none;">en</span>
+</a>
+</li>
+</ul>
+</div>
+
+<div class="col-xs-4 border">
+
+</div>
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+
+
+<div class="top-menu-wrapper top-">
+<div class="container border">
+<div class="col-md-3 col-xs-3 border col-a">
+<a href="https://yummy.ps">
+<img alt="Logo" src="/upload/1615374622-139.png" class="logo logo-desktop">
+<img alt="Logo" src="/upload/1615374680-129.png" class="logo logo-mobile">
+</a>
+</div>
+<div class="col-xs-1 menu-nav-mobile border relative">
+<a href="#"><i class="ion-android-menu"></i></a>
+</div> 
+<div class="col-md-9 border col-b">
+<ul id="menu">
+<li><a href="https://yummy.ps">الرئيسية</a></li>
+<li><a class="headlog" data-toggle="modal" data-target="#modalLogin" href="javascript:void(0);">دخول / تسجيل</a></li>
+<li class="language-selection"><a href="/setlanguage?lang=en"><img alt='en' src="/assets/images/flags/us.png">en</a></li>
+</ul>
+<div class="clear"></div>
+</div>
+</div> 
+</div> 
+<div class="menu-top-menu">
+<ul id="mobile-menu">
+<li><a href="https://yummy.ps">الرئيسية</a></li>
+<li><a class="headlog" data-toggle="modal" data-target="#modalLogin" href="javascript:void(0);">دخول / تسجيل</a></li>
+<li class="language-selection"><a href="/setlanguage?lang=en"><img alt='en' src="/assets/images/flags/us.png">en</a></li>
+</ul>
+<div class="clear"></div>
+</div> 
+
+<div class="section-notfound">
+<div class="section-notfound-inside">
+<div class="container">
+<div class="row">
+<div class="col-md-6  text-center error-page">
+<div class="cs-text">
+<span class="cs-error">404</span>
+<span>ERROR page not found</span>
+<p>The page you are looking for does not exist.</p>
+</div>
+<p>
+<a class="orange-text bold" href="/store">home</a>
+</p>
+</div> 
+</div>
+</div> 
+</div>
+</div>
+
+﻿<div class="sections section-footer">
+<div class="container">
+<div class="row footerhide">
+
+<div class="col-md-12 border col-b">
+<ul id="menu">
+<li><a href="/">الرئيسية</a></li>
+<li><a href="/about-us">من نحن</a></li>
+<li><a href="/terms-of-use">سياسة الإستخدام</a></li>
+<li><a href="/faq">أسئلة متكررة</a></li>
+<li><a href="/privacy">خصوصية الموقع</a></li>
+<li><a href="/contact">اتصل بنا</a></li>
+</ul>
+<div class="clear"></div>
+</div>
+</div>
+<div class="row footerhide">
+<div class="col-md-4">
+ <div><b>Cities</b></div>
+<ul>
+<li><a href="/city/1/restaurants_in_nablus">نابلس</a></li>
+<li><a href="/city/2/restaurants_in_ramallah">رام الله</a></li>
+<li><a href="/city/3/restaurants_in_tulkarm">طولكرم</a></li>
+<li><a href="/city/4/restaurants_in_jenin">جنين</a></li>
+<li><a href="/city/6/restaurants_in_bethlehem">بيت لحم</a></li>
+<li><a href="/city/7/restaurants_in_hebron">الخليل</a></li>
+<li><a href="/city/8/restaurants_in_jericho">اريحا</a></li>
+</ul>
+<div class="clear"></div>
+</div>
+<div class="col-md-4">
+<div><b>مطابخ شائعة</b></div>
+<ul>
+<li><a href="/cuisine/11/Burgers">برجر</a></li>
+<li><a href="/cuisine/40/Fried_Chicken">فرايد تشكن و بروست</a></li>
+<li><a href="/cuisine/39/Bakery_and_Pastry">معجنات ومخبوزات</a></li>
+<li><a href="/cuisine/19/Pizzas">بيتزا</a></li>
+<li><a href="/cuisine/1/American">امريكي</a></li>
+</ul>
+<div class="clear"></div>
+</div>
+<div class="col-md-4">
+<ul>
+<li>&nbsp;</li>
+<li><a href="/cuisine/42/Waffle">وافل</a></li>
+<li><a href="/cuisine/8/Italian">ايطالي</a></li>
+<li><a href="/cuisine/5/Sandwiches">ساندويشات</a></li>
+<li><a href="/cuisine/41/Crepe">كريب</a></li>
+</ul>
+<div class="clear"></div>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-3 "> </div>
+<div class="col-sm-3 ">
+<p class="text-center p-t-md p-t-md-2">اضف مطعمك معنا</p>
+<div class="p-t-md follow-i text-justify">
+<a href="/merchantsignupselection" target="_self" class="logopay"><i class="fa fa-home fa-3x"></i></a>
+<span class="stretch"></span>
+</div>
+</div> 
+<div class="col-sm-3 ">
+<p class="text-center p-t-md p-t-md-2">تابعنا من خلال مواقع التواصل الاجتماعي</p>
+<div class="p-t-md follow-i text-justify">
+<a href="https://www.facebook.com/yummyps/"><i class="fa fa-facebook fa-3x"></i></a>
+
+<a href="https://www.instagram.com/yummy.ps/"><i class="fa fa-instagram fa-3x"></i></a>
+<a href="https://www.youtube.com/"><i class="fa fa-youtube-play fa-3x"></i></a>
+<span class="stretch"></span>
+</div>
+</div>
+<div class="col-sm-3 "></div>
+</div> 
+<div class="col-md-4  col-sm-4 eat text-center">
+</div> 
+<section class="fix-text p-y-md">
+<div class="row">
+<span>
+2018 © yummy.ps. جميع الحقوق محفوظة. </span>
+</div>
+</section>
+</div> 
+</div> 
+<script src="/assets/js/jquery.kaibanner.js" type="7c9d84e622e14d3d94874ef0-text/javascript"></script>
+<script type="7c9d84e622e14d3d94874ef0-text/javascript">
+jQuery('.kai_banner_container').kaiBanner({
+		speed:1000,
+		intervalTime:3000,
+		fixedWidth:true,
+		minWidth:980,
+		highlightClass:'highlight'
+	});
+</script>
+<script type="7c9d84e622e14d3d94874ef0-text/javascript">
+
+
+	
+
+	
+function FilterForm(){
+	
+	document.getElementById("filter_by_city").submit();
+}
+	
+
+  // Handler for .ready() called.
+
+	function LoadArea(city_id){
+		
+		if(city_id==''){
+			document.getElementById("filter_by_city").submit();
+			return false;
+		}
+		
+		
+		
+	var lang = 'ar';	
+		
+	var url = '/admin/ajax';
+	var admin_comment = $('#admin_comment').val();
+	$('#ajax_loader').show();
+	$.ajax({
+		url: url,
+		type: 'post',
+		dataType: 'json',
+		data: {city_id:city_id,action:'getAreas'},		
+		beforeSend: function() {			
+			
+		},
+		complete: function() {
+			//$('.main-preloader').css("display", "none");		
+		},				
+		success: function(data) {
+			
+			var list = '<option></option>';	
+			$.each(data.area,function(index, value){
+				if(lang=='en'){
+					list +='<option value="'+value.area_id+'">'+value.name+'</option>';
+				}else{
+					list +='<option value="'+value.area_id+'">'+value.name_ar+'</option>';
+				}
+			
+			});
+				
+			$('#area_id').html(list);  
+			$('#ajax_loader').hide();			
+		} 
+	});
+	
+	}
+	
+
+
+
+</script>
+
+<div class="main-preloader">
+<div class="inner">
+<div class="ploader"></div>
+</div>
+</div>
+
+
+<style>
+.input-group{margin-bottom:15px;}#modalLogin .orange-button, #modalRegister .orange-button, #modalForgot .orange-button{width:100%;}#modalLogin .modal-footer, #modalRegister .modal-footer, #modalForgot .modal-footer{padding:0px;}#modalLogin .error, #modalRegister .error, #modalForgot .error{ color:#F00;}#modalLogin .success, #modalRegister .success, #modalForgot .success{color:#23527c;}#modalLogin .modal-dialog, #modalRegister .modal-dialog, #modalForgot .modal-dialog{width:500px;position:absolute;top:50%;left:50%;transform: translate(-50%, -50%) !important;}.fb_login_text{ font-weight:bold; font-size:14px; text-align:center;}.fb_log_containter{padding:0 10%; width:100%}.fb_log_containter a{text-transform:capitalize;}.fb_log_containter .fb-button{padding:8px;}
+
+.lang_ar .modal .form-control { border-radius: 4px 0 0 4px !important;}
+.lang_ar .modal .input-group-addon {border-right: 1px solid #ccc !important;border-radius: 0px 4px 4px 0px !important;border-left: none !important;} .lang_ar .modal-header .close{ margin-left:10px;}
+</style>
+<div class="modal fade" id="modalLogin" tabindex="-1" role="dialog" aria-labelledby="modalLogin" aria-hidden="true">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal">&times;</button>
+<h4 class="modal-title"><b>تسجيل الدخول إلى حسابك</b></h4>
+</div>
+<div class="modal-body">
+<form>
+<div class="input-group log_email"><input type="hidden" name="YII_CSRF_TOKEN" id="YII_CSRF_TOKEN" value="ab321cc5263dee544370b736e2e74afef932a3f6">
+<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+<input id="log_email" type="text" class="form-control" name="log_email" placeholder="Email/Mobile">
+</div>
+<div class="input-group userpassword">
+<span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+<input id="userpassword" type="password" class="form-control" name="userpassword" placeholder="كلمة السر">
+</div>
+<div class="input-group">
+<p><a href="javascript:void(0);" class="orange-text" onclick="if (!window.__cfRLUnblockHandlers) return false; showForgot();" data-cf-modified-7c9d84e622e14d3d94874ef0-="">هل نسيت كلمة المرور؟</a></p>
+</div>
+<div class="modal-footer">
+<button type="button" class="orange-button" onclick="if (!window.__cfRLUnblockHandlers) return false; loginCustomer();" data-cf-modified-7c9d84e622e14d3d94874ef0-="">تسجيل الدخول</button>
+</div>
+<p>&nbsp;</p>
+<div class="input-group">
+<p>مستخدم جديد؟ <a href="javascript:void(0);" class="orange-text" onclick="if (!window.__cfRLUnblockHandlers) return false; showSignup();" data-cf-modified-7c9d84e622e14d3d94874ef0-="">
+التسجيل</a>
+</p>
+</div>
+<p class="fb_login_text">تسجيل الدخول بواسطة</p>
+<div class="fb_log_containter">
+<a href="javascript:fbcheckLogin();" class="fb-button orange-button medium rounded">
+<i class="ion-social-facebook"></i>الدخول بواسطة فيسبوك </a>
+</div>
+<div class="fb_log_containter">
+<a style="background:#ff4e41;margin-top:10px;border:solid 1px #ff4e41;" href="/store/google-login" class="fb-button orange-button medium rounded">
+<i class="fa fa-google"></i>login with google </a>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+
+<div class="modal fade" id="modalPhone" tabindex="-1" role="dialog" aria-labelledby="modalPhone" aria-hidden="true">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal">&times;</button>
+<h4 class="modal-title"><b>Add your phone</b></h4>
+</div>
+<div class="modal-body">
+<form>
+<div class="input-group client_phone"><input type="hidden" name="YII_CSRF_TOKEN" id="YII_CSRF_TOKEN" value="ab321cc5263dee544370b736e2e74afef932a3f6">
+<span class="input-group-addon"><i class="glyphicon glyphicon-phone"></i></span>
+<input id="client_phone" type="number" class="form-control" name="client_phone" placeholder="رقم الهاتف">
+</div>
+<p>&nbsp;</p>
+<div class="input-group">
+<p><a href="javascript:void(0);" class="btn btn-success" onclick="if (!window.__cfRLUnblockHandlers) return false; updateClientPhone();" data-cf-modified-7c9d84e622e14d3d94874ef0-="">
+حفظ</a>
+</p>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="modal fade" id="modalRegister" tabindex="-1" role="dialog" aria-labelledby="modalRegister" aria-hidden="true">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal">&times;</button>
+<h4 class="modal-title"><b>سجل</b></h4>
+</div>
+<div class="modal-body">
+<form>
+<div class="form-group">
+<input id="reg_firstname" type="text" class="form-control" name="reg_firstname" placeholder="الاسم الاول">
+</div>
+<div class="form-group">
+<input id="reg_lastname" type="text" class="form-control" name="reg_lastname" placeholder="الاسم الاخير">
+</div>
+<div class="form-group">
+<input id="reg_mobile" type="text" class="form-control" name="reg_mobile" placeholder="رقم الهاتف المحمول">
+</div>
+<div class="form-group">
+<input id="reg_email" type="text" class="form-control" name="reg_email" placeholder="عنوان البريد الإلكتروني">
+</div>
+<div class="form-group">
+<input id="reg_password" type="password" class="form-control" name="reg_password" placeholder="كلمة السر">
+</div>
+<div class="form-group">
+<input id="reg_con_password" type="password" class="form-control" name="reg_con_password" placeholder="اكد كلمة السر">
+</div>
+<div class="modal-footer">
+<button type="button" class="orange-button" id="register_btn" onclick="if (!window.__cfRLUnblockHandlers) return false; registerCustomer();" data-cf-modified-7c9d84e622e14d3d94874ef0-="">اشترك الآن</button>
+</div>
+<p>&nbsp;</p>
+<div class="input-group">
+<p>هل لديك حساب؟ <a href="javascript:void(0);" class="orange-text" onclick="if (!window.__cfRLUnblockHandlers) return false; showLogin();" data-cf-modified-7c9d84e622e14d3d94874ef0-="">دخول</a></p>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="modal fade" id="modalForgot" tabindex="-1" role="dialog" aria-labelledby="modalForgot" aria-hidden="true">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal">&times;</button>
+<h4 class="modal-title"><b>هل نسيت كلمة المرور</b></h4>
+</div>
+<div class="modal-body">
+<p>أدخل عنوان بريدك الإلكتروني أدناه وسنرسل لك بريد إلكتروني يحتوي على كيفية تغيير كلمة المرور الخاصة بك.</p>
+<form>
+<div class="input-group forgot_email">
+<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+<input id="forgot_email" type="text" class="form-control" name="forgot_email" placeholder="عنوان البريد الإلكتروني">
+</div>
+<div class="modal-footer">
+<button type="button" class="orange-button" id="forgot_btn" onclick="if (!window.__cfRLUnblockHandlers) return false; custForgotpassword();" data-cf-modified-7c9d84e622e14d3d94874ef0-="">ارسال</button>
+</div>
+<p>&nbsp;</p>
+<div class="input-group">
+<p><a href="javascript:void(0);" class="orange-text" onclick="if (!window.__cfRLUnblockHandlers) return false; showLogin();" data-cf-modified-7c9d84e622e14d3d94874ef0-="">تسجيل الدخول هنا</a></p>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+
+<div class="modal fade" id="modalVerify" tabindex="-1" role="dialog" aria-labelledby="modalVerify" aria-hidden="true">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal">&times;</button>
+<h4 class="modal-title"><b>تحقق من هاتفك المحمول</b></h4>
+</div>
+<div class="modal-body">
+<form>
+<input type="hidden" name="reg_customer_id" id="reg_customer_id">
+<div class="input-group phone_pin">
+<span class="input-group-addon"><i class="glyphicon glyphicon-unlock"></i></span>
+<input id="mobile_otp" type="text" class="form-control" name="mobile_otp" placeholder="Enter PIN recieved on your phone">
+</div>
+<div class="modal-footer">
+<button type="button" class="orange-button" id="verify_btn" onclick="if (!window.__cfRLUnblockHandlers) return false; verifylogOTP();" data-cf-modified-7c9d84e622e14d3d94874ef0-="">ارسال</button>
+</div>
+<p>&nbsp;</p>
+<div class="input-group">
+<p><a href="javascript:void(0);" class="orange-text" onclick="if (!window.__cfRLUnblockHandlers) return false; showLogin();" data-cf-modified-7c9d84e622e14d3d94874ef0-="">تسجيل الدخول هنا</a></p>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<script type="7c9d84e622e14d3d94874ef0-text/javascript">
+function showLogin(){
+	$('#modalLogin').modal('show');
+	$('#modalRegister').modal('hide');
+	$('#modalForgot').modal('hide');	
+	$('#modalVerify').modal('hide');	
+}
+
+function showForgot(){
+	$('#modalLogin').modal('hide');
+	$('#modalRegister').modal('hide');
+	$('#modalForgot').modal('show');
+}
+
+function showSignup(){
+	$('#modalLogin').modal('hide');
+	$('#modalRegister').modal('show');
+	$('#modalForgot').modal('hide');
+}
+
+function loginCustomer(){
+	
+	var log_email_address = $('#log_email').val();
+	var log_user_password = $('#userpassword').val();
+	
+	$.ajax({
+		 type: 'POST',
+		 url: 'https://yummy.ps' + '/admin/ajax',
+		 dataType: 'json',
+		 data: {email:log_email_address, log_password:log_user_password, action:'custLogin'},		
+		 success: function(data){
+				$('.error').remove();
+				if(data['error'])
+				{
+					if(data['error']['email'])
+					{
+						$('.log_email').after('<p class="error">' + data['error']['email'] + '</p>');
+					}
+					
+					if(data['error']['password'])
+					{
+						$('.userpassword').after('<p class="error">' + data['error']['password'] + '</p>');
+					}
+				}
+				
+				if(data['success'])
+				{
+					location.reload(true);
+				}
+		 }
+		 
+   });
+}
+
+function registerCustomer(){	
+	var firstname = $('#reg_firstname').val();
+	var lastname = $('#reg_lastname').val();
+	var mobile = $('#reg_mobile').val();
+	var email = $('#reg_email').val();
+	var password = $('#reg_password').val();
+	var confirm_password = $('#reg_con_password').val();
+	
+	$.ajax({
+		 type: 'POST',
+		 url: 'https://yummy.ps' + '/admin/ajax',
+		 dataType: 'json',
+		 data: {firstname:firstname, lastname:lastname, mobile:mobile, email:email, password:password, confirm_password:confirm_password, action:'custRegister'},		
+		 success: function(data){
+				$('.error').remove();
+				if(data['error'])
+				{
+					if(data['error']['firstname'])
+					{
+						$('#reg_firstname').after('<span class="error">' + data['error']['firstname'] + '</span>');
+					}
+					
+					if(data['error']['lastname'])
+					{
+						$('#reg_lastname').after('<span class="error">' + data['error']['lastname'] + '</span>');
+					}
+					
+					if(data['error']['mobile'])
+					{
+						$('#reg_mobile').after('<span class="error">' + data['error']['mobile'] + '</span>');
+					}
+					
+					if(data['error']['email'])
+					{
+						$('#reg_email').after('<span class="error">' + data['error']['email'] + '</span>');
+					}
+					
+					if(data['error']['password'])
+					{
+						$('#reg_password').after('<span class="error">' + data['error']['password'] + '</span>');
+					}
+					
+					if(data['error']['confirm_password'])
+					{
+						$('#reg_con_password').after('<span class="error">' + data['error']['confirm_password'] + '</span>');
+					}					
+					
+					if(data['error']['msg'])
+					{
+						$('#register_btn').after('<p class="error">' + data['error']['msg'] + '</p>');
+					}					
+				}
+				
+				if(data['success'])
+				{	
+					if(data['success']['auth']){
+						location.reload(true);
+					}else{
+						
+						$('#modalRegister').modal('hide');
+						//$('#register_btn').after('<p class="error">' + data['success']['msg'] + '</p>');
+						$('#reg_customer_id').val(data['success']['cid']);
+						
+						$('#modalVerify').modal('show');
+					}
+				}
+		 }
+		 
+   });
+}
+
+// forgot password
+
+function custForgotpassword(){	
+	
+	var forgot_email = $('#forgot_email').val();	
+	
+	$.ajax({
+		 type: 'POST',
+		 url: 'https://yummy.ps' + '/admin/ajax',
+		 dataType: 'json',
+		 data: {email:forgot_email, action:'custPassword'},		
+		 success: function(data){
+				$('.error, .success').remove();
+				if(data['error'])
+				{
+					if(data['error']['email'])
+					{
+						$('.forgot_email').after('<p class="error">' + data['error']['email'] + '</p>');
+					}					
+				}
+				
+				if(data['success'])
+				{
+					$('#forgot_btn').after('<p class="success">' + data['success']['msg'] + '</p>');
+				}
+		 }
+		 
+   });
+}
+
+
+// VERIFY OTP
+
+
+function verifylogOTP(){
+	
+	var mobile_otp = $('#mobile_otp').val();
+	var reg_customer_id = $('#reg_customer_id').val();
+	
+	$.ajax({
+		 type: 'POST',
+		 url: 'https://yummy.ps' + '/admin/ajax',
+		 dataType: 'json',
+		 data: {customer_id:reg_customer_id, mobile_otp:mobile_otp, action:'custOTP'},		
+		 success: function(data){
+				$('.error').remove();
+				if(data['error'])
+				{
+					if(data['error']['mobile_otp'])
+					{
+						$('.phone_pin').after('<p class="error">' + data['error']['mobile_otp'] + '</p>');
+					}					
+				}
+				
+				if(data['success'])
+				{
+					$('#modalVerify').modal('hide');
+					$('#modalLogin').modal('show');
+				}
+		 }
+		 
+   });
+}
+
+
+function updateClientPhone(){
+	var client_phone = $('#client_phone').val();
+	
+	if(client_phone=='' || client_phone.length <=9 || isNaN(client_phone)){
+		$('#client_phone').css('border','solid 1px red');
+		return false;
+	}
+	
+	$('#client_phone').css('border','');
+	
+	$.ajax({
+		 type: 'POST',
+		 url: 'https://yummy.ps' + '/store/update-phone',
+		 dataType: 'json',
+		 data: {contact_phone:client_phone},		
+		 success: function(data){
+			if(data.status=='success'){
+				location.reload();
+			}else{
+				alert(data.message);
+			}
+		 }
+		 
+   });	
+	
+	
+	
+}
+</script>
+
+
+<input type="hidden" value="277733143083012" name="fb_app_id" id="fb_app_id" /><input type="hidden" value="PS" name="admin_country_set" id="admin_country_set" /><input type="hidden" value="" name="google_auto_address" id="google_auto_address" /><input type="hidden" value="yes" name="google_default_country" id="google_default_country" /><input type="hidden" value="" name="disabled_share_location" id="disabled_share_location" /><input type="hidden" value="2" name="theme_time_pick" id="theme_time_pick" /><input type="hidden" value="yy-mm-dd" name="website_date_picker_format" id="website_date_picker_format" /><input type="hidden" value="24" name="website_time_picker_format" id="website_time_picker_format" /><input type="hidden" value="" name="disabled_cart_sticky" id="disabled_cart_sticky" />
+<script src="//www.google.com/recaptcha/api.js?onload=onloadMyCallback&render=explicit" async defer type="7c9d84e622e14d3d94874ef0-text/javascript"></script>
+<script src="/assets/smart-app-banner.js" type="7c9d84e622e14d3d94874ef0-text/javascript"></script>
+<script type="7c9d84e622e14d3d94874ef0-text/javascript">
+      new SmartBanner({
+          daysHidden: 15,   // days to hide banner after close button is clicked (defaults to 15)
+          daysReminder: 90, // days to hide banner after "VIEW" button is clicked (defaults to 90)
+          appStoreLanguage: 'ar', // language code for the App Store (defaults to user's browser language)
+          title: 'Yummy - يمي',
+          author: 'ArabMoibleContent',
+          button: 'Download - تحميل',
+          store: {
+             // ios: 'On the App Store',
+              android: 'In Google Play',
+            //  windows: 'In Windows store'
+          },
+          price: {
+         //     ios: 'FREE',
+              android: 'FREE',
+           //   windows: 'FREE'
+          }
+          // , theme: '' // put platform type ('ios', 'android', etc.) here to force single theme on all device
+          // , icon: '' // full path to icon image if not using website icon image
+          // , force: 'ios' // Uncomment for platform emulation
+      });
+    </script>
+<script type="7c9d84e622e14d3d94874ef0-text/javascript" src="/assets/vendor/jquery-1.10.2.min.js"></script>
+<script type="7c9d84e622e14d3d94874ef0-text/javascript" src="//code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+<script type="7c9d84e622e14d3d94874ef0-text/javascript" src="/assets/vendor/DataTables/jquery.dataTables.min.js"></script>
+<script type="7c9d84e622e14d3d94874ef0-text/javascript" src="/assets/vendor/DataTables/fnReloadAjax.js"></script>
+<script type="7c9d84e622e14d3d94874ef0-text/javascript" src="/assets/vendor/JQV/form-validator/jquery.form-validator.min.js"></script>
+<script type="7c9d84e622e14d3d94874ef0-text/javascript" src="/assets/vendor/jquery.ui.timepicker-0.0.8.js"></script>
+<script type="7c9d84e622e14d3d94874ef0-text/javascript" src="/assets/js/uploader.js"></script>
+<script type="7c9d84e622e14d3d94874ef0-text/javascript" src="/assets/vendor/ajaxupload/fileuploader.js"></script>
+<script type="7c9d84e622e14d3d94874ef0-text/javascript" src="/assets/vendor/iCheck/icheck.js"></script>
+<script type="7c9d84e622e14d3d94874ef0-text/javascript" src="/assets/vendor/chosen/chosen.jquery.min.js"></script>
+<script type="7c9d84e622e14d3d94874ef0-text/javascript" src="/assets/vendor/markercluster.js"></script>
+<script type="7c9d84e622e14d3d94874ef0-text/javascript" src="//maps.googleapis.com/maps/api/js?v=3.exp&amp;libraries=places&amp;key=AIzaSyAxk2DhZzUHVQrXi_nQaZ1c4wss7IbCWzs"></script>
+<script type="7c9d84e622e14d3d94874ef0-text/javascript" src="/assets/vendor/jquery.geocomplete.min.js"></script>
+<script type="7c9d84e622e14d3d94874ef0-text/javascript" src="/assets/vendor/jquery.printelement.js"></script>
+<script type="7c9d84e622e14d3d94874ef0-text/javascript" src="/assets/vendor/fancybox/source/jquery.fancybox.js?ver=1"></script>
+<script type="7c9d84e622e14d3d94874ef0-text/javascript" src="/assets/vendor/jquery.appear.js"></script>
+<script type="7c9d84e622e14d3d94874ef0-text/javascript" src="/assets/vendor/magnific-popup/jquery.magnific-popup.js"></script>
+<script type="7c9d84e622e14d3d94874ef0-text/javascript" src="/assets/vendor/imagesloaded.pkgd.js"></script>
+<script type="7c9d84e622e14d3d94874ef0-text/javascript" src="/assets/vendor/intel/build/js/intlTelInput.js?ver=2.1.5"></script>
+<script type="7c9d84e622e14d3d94874ef0-text/javascript" src="/assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+<script type="7c9d84e622e14d3d94874ef0-text/javascript" src="/assets/vendor/parallax.js/parallax.min.js"></script>
+<script type="7c9d84e622e14d3d94874ef0-text/javascript" src="/assets/vendor/raty/jquery.raty.js"></script>
+<script type="7c9d84e622e14d3d94874ef0-text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.9.4/js/bootstrap-select.min.js"></script>
+<script type="7c9d84e622e14d3d94874ef0-text/javascript" src="/assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+<script type="7c9d84e622e14d3d94874ef0-text/javascript" src="/assets/vendor/waypoints/shortcuts/infinite.min.js"></script>
+<script type="7c9d84e622e14d3d94874ef0-text/javascript" src="/assets/vendor/gmaps.js"></script>
+<script type="7c9d84e622e14d3d94874ef0-text/javascript" src="/assets/vendor/noty-2.3.7/js/noty/packaged/jquery.noty.packaged.min.js"></script>
+<script type="7c9d84e622e14d3d94874ef0-text/javascript" src="/assets/vendor/nprogress/nprogress.js"></script>
+<script type="7c9d84e622e14d3d94874ef0-text/javascript" src="/assets/vendor/theia-sticky-sidebar.js"></script>
+<script type="7c9d84e622e14d3d94874ef0-text/javascript" src="/assets/vendor/readmore.min.js"></script>
+<script type="7c9d84e622e14d3d94874ef0-text/javascript" src="/assets/vendor/justified-gallery/js/jquery.justifiedGallery.min.js"></script>
+<script type="7c9d84e622e14d3d94874ef0-text/javascript" src="/assets/vendor/EasyAutocomplete/jquery.easy-autocomplete.min.js"></script>
+<script type="7c9d84e622e14d3d94874ef0-text/javascript" src="/assets/vendor/timepicker.co/jquery.timepicker.js"></script>
+<script type="7c9d84e622e14d3d94874ef0-text/javascript" src="/assets/vendor/typehead/bootstrap3-typeahead.min.js"></script>
+<script type="7c9d84e622e14d3d94874ef0-text/javascript" src="/assets/vendor/jquery-cookie.js"></script>
+<script type="7c9d84e622e14d3d94874ef0-text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.2/js/bootstrap-select.min.js"></script>
+<script type="7c9d84e622e14d3d94874ef0-text/javascript" src="/assets/js/store.js?ver=3"></script>
+<script type="7c9d84e622e14d3d94874ef0-text/javascript" src="/assets/js/fblogin.js?ver=1"></script>
+<script type="7c9d84e622e14d3d94874ef0-text/javascript" src="/assets/js/store-v3.js?ver=3"></script>
+<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="7c9d84e622e14d3d94874ef0-|49" defer=""></script></body>
+</html>
